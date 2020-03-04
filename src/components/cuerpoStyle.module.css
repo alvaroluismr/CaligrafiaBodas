@@ -1,0 +1,34 @@
+.cuerpoall{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+li{
+  max-width: 90%;
+  margin: 0px auto;
+}
+
+.muestraletra{
+  /*border: 2px solid black;*/
+  margin: 30px auto;
+  border-radius: 100px;
+  overflow: hidden;
+  opacity: 80%;
+  background-color: #f2f2f2;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.muestraletrapeque{
+  max-width: 850px;
+}
+
+.muestraletragrande{
+  max-width: 950px;
+}
+
+.muestraletra:hover{
+  opacity: 100%;
+  box-shadow: 2px 2px;
+}

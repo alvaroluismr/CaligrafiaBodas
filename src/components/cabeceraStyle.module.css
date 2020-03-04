@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.fondotop {
+  background: linear-gradient(45deg, #ebfbf4 0%, #f1c4be 100%);
+  width: 100%;
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  
+}
+
+.fondotop img {
+  background: linear-gradient(45deg, #f1c4be 0%, #ebfbf4 100%);
+  border-radius: 200px;
+  border: 5px solid #f1c4be;
+  margin: 15px auto;
+  width: 90%;
+  max-width: 1280px;
+  opacity: 50%;
+}
+
+.fondotop p{
+  color: #3e3e3e;
+  font-size: 2rem;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 770px){
+  .fondotop p{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .fondotop p{
+    font-size: 1rem;
+  }
+}
