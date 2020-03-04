@@ -14,7 +14,7 @@ li{
   margin: 30px auto;
   border-radius: 100px;
   overflow: hidden;
-  opacity: 80%;
+  /*opacity: 80%;*/
   background-color: #f2f2f2;
   font-size: 1.5rem;
   font-family: monospace;
@@ -29,6 +29,6 @@ li{
 }
 
 .muestraletra:hover{
-  opacity: 100%;
+  /*opacity: 100%;*/
   box-shadow: 2px 2px;
 }
