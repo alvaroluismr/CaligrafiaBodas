@@ -2,6 +2,7 @@
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #ebfbf4;
 }
 
 li{
@@ -15,7 +16,7 @@ li{
   border-radius: 100px;
   overflow: hidden;
   /*opacity: 80%;*/
-  background-color: #f2f2f2;
+  background-color: #f1c4be;
   font-size: 1.5rem;
   font-family: monospace;
 }

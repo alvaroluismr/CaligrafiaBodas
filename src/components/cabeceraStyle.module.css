@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .fondotop {
-  background: linear-gradient(45deg, #ebfbf4 0%, #f1c4be 100%);
+  background: linear-gradient(to top, #ebfbf4 0%, #f1c4be 100%);
   width: 100%;
-  border: 2px solid #f2f2f2;
+  /*border: 2px solid #f2f2f2;*/
   text-align: center;
-  margin-bottom: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 
 .logo {
@@ -15,7 +14,7 @@
 }
 
 .fondotop img {
-  background: linear-gradient(45deg, #f1c4be 0%, #ebfbf4 100%);
+  /*background: linear-gradient(45deg, #f1c4be 0%, #ebfbf4 100%);*/
   border-radius: 200px;
   border: 5px solid #f1c4be;
   margin: 15px auto;
