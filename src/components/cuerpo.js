@@ -9,10 +9,15 @@ import goticaAlemana from "../img/goticaAlemana.png"
 export default () => (
 
   <div className={cuerpoStyle.cuerpoall}>
+    <div className={cuerpoStyle.parrafo}>
+      <p>Dispone de 5 tipografías distintas donde elegir</p>
+    </div>
     <ul>
       <li>
         <div className={[cuerpoStyle.muestraletra, cuerpoStyle.muestraletrapeque].join(' ')}>
-          <figure><img src={redondilla} alt="Redondilla muestra"></img></figure>
+          <div className={cuerpoStyle.fotogaleria}>
+            <figure><img src={redondilla} alt="Redondilla muestra"></img></figure>
+          </div>
           <h1>Redondilla</h1>
         </div>
       </li>

@@ -2,7 +2,16 @@
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #ebfbf4;
+  /*background-color: #ebfbf4;*/
+  /*background: linear-gradient(to top, #f1c4be 0%, #ebfbf4 100%);*/
+}
+
+.parrafo{
+  color: #3e3e3e;
+  font-size: 2rem;
+  margin: 20px auto 50px auto;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.3rem;
 }
 
 li{
@@ -17,8 +26,14 @@ li{
   overflow: hidden;
   /*opacity: 80%;*/
   background-color: #f1c4be;
+  /*background-color: #f2f2f2;*/
   font-size: 1.5rem;
   font-family: monospace;
+}
+
+.muestraletra figure{
+  height: 190px;
+  overflow: hidden;
 }
 
 .muestraletrapeque{
@@ -32,4 +47,10 @@ li{
 .muestraletra:hover{
   /*opacity: 100%;*/
   box-shadow: 2px 2px;
+}
+
+@media screen and (max-width: 770px){
+  .muestraletra figure{
+    height: 150px;
+  }
 }

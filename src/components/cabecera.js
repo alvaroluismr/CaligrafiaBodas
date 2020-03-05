@@ -1,6 +1,6 @@
 import React from "react"
 import cabeceraStyle from "./cabeceraStyle.module.css"
-import Logo from "../img/Logo-titulo.png"
+import Logo from "../img/Logo-titulo7.png"
 
 export default () => (
 
